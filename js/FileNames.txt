@@ -1,0 +1,16 @@
+backToTop.js
+beforeAndAfterSlider.js
+businessHours.js
+contactForm.js
+cookieConsent.js
+countdownTimer.js
+faq.js
+formBuilder.js
+googleMaps.js
+logoShowcase.js
+photoGallery.js
+platform.js
+search.js
+socialShareButtons.js
+weather.js
+
