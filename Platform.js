@@ -1,10 +1,4 @@
-/*!
- * 
- * 	elfsight.com
- * 	
- * 	Copyright (c) 2024 Elfsight, LLC. ALL RIGHTS RESERVED
- * 
- */
+
 !function(e) {
     function t(i) {
         if (n[i])
