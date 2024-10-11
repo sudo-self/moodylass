@@ -1,0 +1,5 @@
+# Allow  Search Engines to Index
+User-agent: *
+Allow: /        
+
+Sitemap: https://moodylass.com/sitemap.xml
