@@ -11,7 +11,9 @@
 
 <img width="637" alt="Screenshot 2024-10-11 at 12 42 34 AM" src="https://github.com/user-attachments/assets/a3661671-72e8-4e43-9200-8332b0018807"><br>
 
-[Moodylass.pdf](https://github.com/user-attachments/files/17339017/Moodylass.pdf)
+--Download&nbsp;[Moodylass.pdf](https://github.com/user-attachments/files/17339017/Moodylass.pdf)
+
+--View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
 
 --added package.json
