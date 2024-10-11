@@ -17,6 +17,8 @@
 
 --added "moodylassLOGO.svg" resolves <a href="https://moodylass.com/moodylassLOGO.svg">/moodylassLOGO.svg</a>
 
+<img width="766" alt="Screenshot 2024-10-11 at 5 51 47 AM" src="https://github.com/user-attachments/assets/ea9c1268-9785-44dc-b212-9cfd406d383a">
+
 --used realaive paths
 
 --added "sitemap.xml" 
