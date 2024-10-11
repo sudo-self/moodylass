@@ -16,7 +16,7 @@
 --View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
 --changing anchor tags to < video > allows local playback "/tea.mp4"
---replace eeverything inside the < a > tag
+
 ```
 <p class="MoodyLassHeadingCxSpLast">
       A valuable lesson about Consent, shared by Moody Lass, and brought to you
@@ -31,7 +31,18 @@
     </p>
 
 ```
-<img width="1051" alt="Screenshot 2024-10-11 at 5 01 33 AM" src="https://github.com/user-attachments/assets/3a42ea67-ae96-4295-9e46-bd9ced532b94">
+--added light grey gradient across body
+
+```
+
+body {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1)); 
+}
+
+```
+
+<img width="1209" alt="Screenshot 2024-10-11 at 5 26 41 AM" src="https://github.com/user-attachments/assets/48ffc73b-a3a2-4243-80ef-5303ea6ec740">
+
 
 
 -- Style to match current theme with css
