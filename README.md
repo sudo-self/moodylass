@@ -223,3 +223,7 @@ https://github.com/user-attachments/assets/1764a431-e8f7-4d6b-960c-c63acce92806
 
 ```
 
+![Dynamic Header](https://github.com/user-attachments/assets/da1e798a-60eb-435b-9100-cb99e6385051)
+
+
+
