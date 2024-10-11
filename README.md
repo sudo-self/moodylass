@@ -34,39 +34,26 @@
 <img width="1051" alt="Screenshot 2024-10-11 at 5 01 33 AM" src="https://github.com/user-attachments/assets/3a42ea67-ae96-4295-9e46-bd9ced532b94">
 
 
--- ADDED SEO JSON 
+-- Style to match current theme with css
+
 ```
 
-{
-  "title": "Moodylass | Freelance Muse and Writer",
-  "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
-  "author": "Lani Krewson",
-  "favicon": "favicon.ico",
-  "icons": {
-    "appleTouchIcon": "apple-touch-icon.png",
-    "icon32x32": "favicon.png",
-    "icon192x192": "icon192.png",
-    "msTileImage": "favicon.png"
-  },
-  "themeColor": "#ffffff",
-  "msTileColor": "#FFFFFF",
-  "manifest": "manifest.json",
-  "viewport": "width=device-width, initial-scale=1",
-  "charset": "utf-8",
-  "openGraph": {
-    "type": "website",
-    "url": "https://moodylass.com",
-    "title": "Moodylass | Freelance Muse and Writer",
-    "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
-    "image": "https://moodylass.com/moodylassLOGO.svg"
-  },
-  "twitter": {
-    "card": "summary_large_image",
-    "url": "https://moodylass.com",
-    "title": "Moodylass | Freelance Muse and Writer",
-    "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
-    "image": "https://moodylass.com/moodylassLOGO.svg"
-  }
+.MoodyLassHeadingCxSpLast {
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 320px;
+  margin: 20px auto;
+  font-family: "Arial", sans-serif;
+}
+
+video {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 ```
