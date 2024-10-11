@@ -15,7 +15,7 @@
 
 --View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
---changing anchor tags to < video > allows local playback "/tea.mp4"
+--changing anchor tags to < video > allows local playback onsite "/tea.mp4"
 
 ```
 <p class="MoodyLassHeadingCxSpLast">
@@ -40,17 +40,12 @@ body {
 }
 
 ```
---could set the thumbnail with the poster attribute inside controls 
+--set the thumbnail SVG with the poster attribute inside controls 
 
 ```
-  <video width="300" height="200" controls poster="./YOUR_PHOTO_HERE.jpg"
+  <video width="300" height="200" controls poster="./moodylassLOGO.svg"
 
 ```
-
-<img width="1209" alt="Screenshot 2024-10-11 at 5 26 41 AM" src="https://github.com/user-attachments/assets/48ffc73b-a3a2-4243-80ef-5303ea6ec740">
-
-
-
 -- Style to match current theme with css
 
 ```
@@ -74,6 +69,10 @@ video {
 }
 
 ```
+
+-- watch on site without navigating away and zero loading
+
+<img width="705" alt="Screenshot 2024-10-11 at 5 42 29 AM" src="https://github.com/user-attachments/assets/64e29e22-c97d-4114-b9bf-d67f0f822234">
 
 
 --icon set meta 
