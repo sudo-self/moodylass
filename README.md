@@ -31,6 +31,7 @@
     </p>
 
 ```
+<img width="1051" alt="Screenshot 2024-10-11 at 5 01 33 AM" src="https://github.com/user-attachments/assets/3a42ea67-ae96-4295-9e46-bd9ced532b94">
 
 
 -- ADDED SEO JSON 
