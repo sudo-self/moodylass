@@ -40,6 +40,12 @@ body {
 }
 
 ```
+--could set the thumbnail with the poster attribute inside controls 
+
+```
+  <video width="300" height="200" controls poster="./YOUR_PHOTO_HERE.jpg"
+
+```
 
 <img width="1209" alt="Screenshot 2024-10-11 at 5 26 41 AM" src="https://github.com/user-attachments/assets/48ffc73b-a3a2-4243-80ef-5303ea6ec740">
 
