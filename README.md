@@ -12,9 +12,9 @@
 
 ![icon-round-64x64](https://github.com/user-attachments/assets/3bb16a65-4813-4e7a-9015-149301cbc759)
 
-![apple-touch-icon](https://github.com/user-attachments/assets/ee0cecca-c3ff-40b7-a920-bfba6aa53813)
-
 ![favicon](https://github.com/user-attachments/assets/4a867f1a-802b-44ff-821f-4a1a34697bf4)
+
+![apple-touch-icon](https://github.com/user-attachments/assets/ee0cecca-c3ff-40b7-a920-bfba6aa53813)
 
 ![icon-round-196x196](https://github.com/user-attachments/assets/c25a232d-001b-4f26-b022-e6d91eae03f1)
 
