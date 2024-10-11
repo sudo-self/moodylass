@@ -15,7 +15,26 @@
 
 --View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
---changing anchor tags to < video > allows local playback onsite "/tea.mp4"
+--added "moodylassLOGO.svg" resolves <a href="https://moodylass.com/moodylassLOGO.svg">/moodylassLOGO.svg</a>
+
+--used realaive paths
+
+--added "sitemap.xml" 
+
+ ```
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+  <url>
+    <loc>https://moodylass.com/</loc>
+    <lastmod>2024-10-11T06:27:21.393Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+
+```
+
+--changed anchor tags to < video > allows local playback onsite "/tea.mp4" in HTML5 
 
 ```
 <p class="MoodyLassHeadingCxSpLast">
@@ -40,7 +59,7 @@ body {
 }
 
 ```
---set the thumbnail SVG with the poster attribute inside controls 
+--set thumbnail SVG with the poster attribute inside controls 
 
 ```
   <video width="300" height="200" controls poster="./moodylassLOGO.svg"
@@ -96,25 +115,8 @@ video {
 
 --.mp4 local 
 
-https://github.com/user-attachments/assets/1764a431-e8f7-4d6b-960c-c63acce92806
 
 
- -added "moodylassLOGO.svg" resolves <a href="https://moodylass.com/moodylassLOGO.svg">/moodylassLOGO.svg</a>
-
- -added "sitemap.xml" 
-
- ```
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset>
-  <url>
-    <loc>https://moodylass.com/</loc>
-    <lastmod>2024-10-11T06:27:21.393Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-</urlset>
-
-```
 
 --DYNAMIC SEO HEADER
 
