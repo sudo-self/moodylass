@@ -15,6 +15,9 @@
     <!-- Manifest -->
     <link rel="manifest" href="manifest.json" />
 
+    <!-- SEO -->
+    <script="seo.json"     
+
     <!-- Meta Information -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,9 +41,32 @@
     <meta property="twitter:title" content="Moodylass | Freelance Muse and Writer" />
     <meta property="twitter:description" content="A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea." />
     <meta property="twitter:image" content="https://moodylass.com/moodylassLOGO.svg" />
-    
-</head>
+      
+    <!-- DYNAMIC SEO -->
+    <script>
+        fetch('/seo.json')
+            .then(response => response.json())
+            .then(data => {
+                document.title = data.title;
+                document.querySelector('meta[name="description"]').setAttribute('content', data.description);
+                document.querySelector('meta[name="author"]').setAttribute('content', data.author);
+                document.querySelector('meta[name="theme-color"]').setAttribute('content', data.themeColor);
 
+                // Set Open Graph meta tags
+                document.querySelector('meta[property="og:title"]').setAttribute('content', data.openGraph.title);
+                document.querySelector('meta[property="og:description"]').setAttribute('content', data.openGraph.description);
+                document.querySelector('meta[property="og:url"]').setAttribute('content', data.openGraph.url);
+                document.querySelector('meta[property="og:image"]').setAttribute('content', data.openGraph.image);
+
+                // Set Twitter meta tags
+                document.querySelector('meta[property="twitter:title"]').setAttribute('content', data.twitter.title);
+                document.querySelector('meta[property="twitter:description"]').setAttribute('content', data.twitter.description);
+                document.querySelector('meta[property="twitter:url"]').setAttribute('content', data.twitter.url);
+                document.querySelector('meta[property="twitter:image"]').setAttribute('content', data.twitter.image);
+            })
+            .catch(error => console.error('Error loading SEO data:', error));
+    </script>
+</head>
   
   
     <style type="text/css">
