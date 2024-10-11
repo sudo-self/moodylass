@@ -15,6 +15,24 @@
 
 --View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
+--changing viddeo to this allows playback on site "/tea.mp4"
+
+```
+<p class="MoodyLassHeadingCxSpLast">
+      A valuable lesson about Consent, shared by Moody Lass, and brought to you
+      by the English with Tea.
+    </p>
+    <p class="MoodyLassHeadingCxSpLast">
+    <video width="300" height="200" controls>
+        <source src="./tea.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    </p>
+
+```
+
+
 -- ADDED SEO JSON 
 ```
 
