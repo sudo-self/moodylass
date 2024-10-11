@@ -15,6 +15,42 @@
 
 --View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
+-- ADDED SEO JSON 
+```
+
+{
+  "title": "Moodylass | Freelance Muse and Writer",
+  "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
+  "author": "Lani Krewson",
+  "favicon": "favicon.ico",
+  "icons": {
+    "appleTouchIcon": "apple-touch-icon.png",
+    "icon32x32": "favicon.png",
+    "icon192x192": "icon192.png",
+    "msTileImage": "favicon.png"
+  },
+  "themeColor": "#ffffff",
+  "msTileColor": "#FFFFFF",
+  "manifest": "manifest.json",
+  "viewport": "width=device-width, initial-scale=1",
+  "charset": "utf-8",
+  "openGraph": {
+    "type": "website",
+    "url": "https://moodylass.com",
+    "title": "Moodylass | Freelance Muse and Writer",
+    "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
+    "image": "https://moodylass.com/moodylassLOGO.svg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "url": "https://moodylass.com",
+    "title": "Moodylass | Freelance Muse and Writer",
+    "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
+    "image": "https://moodylass.com/moodylassLOGO.svg"
+  }
+}
+
+```
 
 --added package.json
 
