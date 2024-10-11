@@ -15,8 +15,8 @@
 
 --View:&nbsp;<a href="https://github.com/sudo-self/moodylass/blob/main/Moodylass.pdf">Moodylass.pdf</a>
 
---changing viddeo to this allows playback on site "/tea.mp4"
-
+--changing anchor tags to < video > allows local playback "/tea.mp4"
+--replace eeverything inside the < a > tag
 ```
 <p class="MoodyLassHeadingCxSpLast">
       A valuable lesson about Consent, shared by Moody Lass, and brought to you
