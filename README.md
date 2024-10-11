@@ -75,3 +75,42 @@ https://github.com/user-attachments/assets/1764a431-e8f7-4d6b-960c-c63acce92806
 </urlset>
 
 ```
+--manifest.json
+
+```
+{
+  "name": "Moodylass",
+  "short_name": "Moodylass",
+  "description": "A pseudo-advice column for simple solutions to complicated life problems using knowledge, experience, and a cup of tea.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}
+
+```
